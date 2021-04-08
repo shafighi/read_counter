@@ -1,0 +1,191 @@
+INFO:STPipeline:ST Pipeline 1.8.1
+INFO:STPipeline:Output directory: /home/shafighi/alireza/stpipeline/output
+INFO:STPipeline:Temporary directory: /home/shafighi/alireza/stpipeline/st_1.2
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /home/shafighi/alireza/stpipeline/fasta/EGAR00001746273_Patient3_H1.2_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /home/shafighi/alireza/stpipeline/fasta/EGAR00001746273_Patient3_H1.2_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /home/shafighi/alireza/stpipeline/star
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /home/shafighi/calling_from_BAM/barcodes/1000L9_barcodes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2021-01-16 15:35:06.450764
+INFO:STPipeline:ST Pipeline 1.8.1
+INFO:STPipeline:Output directory: /home/shafighi/alireza/stpipeline/output
+INFO:STPipeline:Temporary directory: /home/shafighi/alireza/stpipeline/st_1.2
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /home/shafighi/alireza/stpipeline/fasta/EGAR00001746273_Patient3_H1.2_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /home/shafighi/alireza/stpipeline/fasta/EGAR00001746273_Patient3_H1.2_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /home/shafighi/alireza/stpipeline/star
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /home/shafighi/calling_from_BAM/barcodes/1000L2_barcodes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2021-01-16 15:35:34.967404
+INFO:STPipeline:ST Pipeline 1.8.1
+INFO:STPipeline:Output directory: /home/shafighi/alireza/stpipeline/output
+INFO:STPipeline:Temporary directory: /home/shafighi/alireza/stpipeline/st_1.2
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /home/shafighi/alireza/stpipeline/fasta/EGAR00001746273_Patient3_H1.2_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /home/shafighi/alireza/stpipeline/fasta/EGAR00001746273_Patient3_H1.2_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /home/shafighi/alireza/stpipeline/star
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /home/shafighi/calling_from_BAM/barcodes/1000L3_barcodes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2021-01-16 15:36:18.608726
+INFO:STPipeline:ST Pipeline 1.8.1
+INFO:STPipeline:Output directory: /home/shafighi/alireza/stpipeline/output
+INFO:STPipeline:Temporary directory: /home/shafighi/alireza/stpipeline/st_1.2
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /home/shafighi/alireza/stpipeline/fasta/EGAR00001746273_Patient3_H1.2_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /home/shafighi/alireza/stpipeline/fasta/EGAR00001746273_Patient3_H1.2_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /home/shafighi/alireza/stpipeline/star
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /home/shafighi/calling_from_BAM/barcodes/FileID_10004.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2021-01-16 15:37:01.734338
+INFO:STPipeline:ST Pipeline 1.8.1
+INFO:STPipeline:Output directory: /home/shafighi/alireza/stpipeline/output
+INFO:STPipeline:Temporary directory: /home/shafighi/alireza/stpipeline/st_1.2
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /home/shafighi/alireza/stpipeline/fasta/EGAR00001746273_Patient3_H1.2_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /home/shafighi/alireza/stpipeline/fasta/EGAR00001746273_Patient3_H1.2_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /home/shafighi/alireza/stpipeline/star
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /home/shafighi/calling_from_BAM/barcodes/1000L2_barcodes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2021-01-16 15:38:38.767899
+INFO:STPipeline:Start filtering raw reads 2021-01-16 15:38:38.769229
