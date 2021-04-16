@@ -75,10 +75,10 @@ def alnToACgen( alnFileInfo, vr, contigLd = lambda chr: chr, minReadNum = 0, fil
             for pileupRead in pileupCol.pileups:
                 if not pileupRead.is_del and not pileupRead.is_refskip and pileupCol.pos == vr.pos-1 :
                     cnt = cnt + 1
-                else:
-                    if(not pileupRead.is_del and not pileupRead.is_refskip):
-                          print(vr.pos)
-                          print(pileupCol.pos)
+                #else:
+                    #if(not pileupRead.is_del and not pileupRead.is_refskip):
+                          #print(vr.pos)
+                          #print(pileupCol.pos)
         if cnt < minReadNum or cnt==0:
             next
         for pileupRead in pileupCol.pileups:
@@ -123,11 +123,11 @@ class SummaryAcWriter:
 
     def posEnd(self):
         df = pd.DataFrame( self._acs )
-        print(df)
+        #print(df)
         umiDf = df.groupby(["source", "refPos", "base"]).size().reset_index(name='cnt')
         umiDf[ "refContig" ] = self._vr.contig
         umiDf[ "refAllele" ] = self._vr.ref
-        print(umiDf)
+        #print(umiDf)
         #print("size:")
         #umiDf.groupby(["refContig", "refPos", "refAllele", "base", "source"]).size()
         #sumDf = umiDf.groupby(["refContig", "refPos", "refAllele", "base", "source"]).size().reset_index(name='cnt')
@@ -155,7 +155,7 @@ class AlleleCounterTool:
         self._outAcFileName = outAcFileName
         self._cellRangerGEXs = cellRangerGEXs
         self._header = header
-        print(vcfFileName)
+        #print(vcfFileName)
     # info is a dict contain bam file name, bai ifile name, barcodes name
     def openAlnFiles(self,info):
         save = pysam.set_verbosity(0)
@@ -167,7 +167,7 @@ class AlleleCounterTool:
         return info
 
     def run(self):
-        print(self._header)
+        #print(self._header)
         df = vcfToDPtab(self._vcfFileName,self._header)
         df = rankDPtab(df, topNum=self._topNum, blockSepDist=self._blockSepDist)
         # This for is for the cases which we have more than one set of files. usually we only have one
@@ -191,15 +191,20 @@ class AlleleCounterTool:
 #  ------------------------------------------------------------------------
 
 crg = dict( { id: { "bam": sys.argv[1],"bai": sys.argv[2],"barcodes": sys.argv[3] } } )
+print("inside")
+
+
+print(sys.argv)
+
 acTool = AlleleCounterTool(
         vcfFileName = sys.argv[4],
-        outAcFileName = "st_mutations/"+sys.argv[5]+'.ac',
+        outAcFileName = sys.argv[7]+sys.argv[5]+'.ac',
         cellRangerGEXs = crg,
         header = sys.argv[6],
         topNum = 3000,
         blockSepDist = 1
 )
-print(crg)
-if not path.exists("st_mutations/"):
-    os.makedirs("st_mutations/")
+#print(crg)
+if not path.exists(sys.argv[7]):
+    os.makedirs(sys.argv[7])
 acTool.run()

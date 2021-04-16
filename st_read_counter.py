@@ -36,7 +36,7 @@ def vcfToGTgen( varFile ):
 
 def vcfToDPgen( varFile,header ):
     for vr in varFile.fetch():
-        print(vr.samples[header]["DP"])
+        #print(vr.samples[header]["DP"])
         dp = vr.samples[header]["DP"]
         yield ( vr.contig, vr.pos, dp )
 
@@ -223,12 +223,12 @@ barcode_num = '2'
 crg = dict( { id: { "bam": sys.argv[1],"bai": sys.argv[2],"barcodes": sys.argv[3] } } )
 acTool = AlleleCounterTool(
         vcfFileName = sys.argv[4],
-        outAcFileName = "results/"+sys.argv[5]+'.ac',
+        outAcFileName = sys.argv[7]+sys.argv[5]+'.ac',
         cellRangerGEXs = crg,
         header = sys.argv[6],
         topNum = 3000,
         blockSepDist = 1
 )
-if not path.exists("results/"):
-    os.makedirs("results/")
+if not path.exists(sys.argv[7]):
+    os.makedirs(sys.argv[7])
 acTool.run()
