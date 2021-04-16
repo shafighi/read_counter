@@ -2,16 +2,17 @@
 
 project="pathologist_prostate"
 sections=([0]="1.2" [1]="2.4" [2]="3.3")
-headers=([0]="12"  [1]="24" [2]="33")
+#headers=([0]="12"  [1]="24" [2]="33")
 barcode="/home/shafighi/calling_from_BAM/barcodes/1000L2_barcodes_header.txt"
-selected="3.3"
-selected_col="33"
+#selected="3.3"
+#selected_col="33"
 st_bam_dir="/home/shafighi/alireza/stpipeline/"
 wes_bam_dir="/home/shafighi/alireza/data/bam/"
 vcf_dir="/home/shafighi/calling_from_BAM/output/vardict/"
 true_spots="input/true_spots.txt"
-st_dir="results/st_calls/"
-filtered_dir="results/${project}/"
+st_dir="results/${project}/st_reads/"
+wes_dir="results/${project}/wes_reads/"
+filtered_dir="results/${project}/filtered_vcfs/"
 vcf_file_selected="${filtered_dir}1_all.vcf"
 tumor_column_vcf="w12"
 
@@ -41,7 +42,7 @@ echo $wes_bai_file
 echo $barcode $vcf_file 
 echo $output_name 
 echo $tumor_column_vcf 
-python wes_st_read_counter.py $wes_bam_file $wes_bai_file $barcode $vcf_file_selected $output_name $tumor_column_vcf $st_dir
+python wes_st_read_counter.py $wes_bam_file $wes_bai_file $barcode $vcf_file_selected $output_name $tumor_column_vcf $wes_dir
 done
 }
 
