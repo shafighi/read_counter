@@ -1,6 +1,6 @@
 #!/bin/bash
 
-project="pathologist_prostate"
+project="pathologist_prostate_any"
 sections=([0]="1.2" [1]="2.4" [2]="3.3")
 #headers=([0]="12"  [1]="24" [2]="33")
 barcode="/home/shafighi/calling_from_BAM/barcodes/1000L2_barcodes_header.txt"
@@ -9,7 +9,7 @@ barcode="/home/shafighi/calling_from_BAM/barcodes/1000L2_barcodes_header.txt"
 st_bam_dir="/home/shafighi/alireza/stpipeline/"
 wes_bam_dir="/home/shafighi/alireza/data/bam/"
 vcf_dir="/home/shafighi/calling_from_BAM/output/vardict/"
-true_spots="input/true_spots.txt"
+true_spots="/home/shafighi/TUMOROSCOPE/input/CellCountSummary_selected_any.txt"
 st_dir="results/${project}/st_reads/"
 wes_dir="results/${project}/wes_reads/"
 filtered_dir="results/${project}/filtered_vcfs/"

@@ -51,9 +51,10 @@ def get_bar_dict(barcodes_file):
 
 
 def get_proper_spots(section, cells_file):
-    cells = pd.read_csv(cells_file,  header=0, names=['section', 'spot', 'n_cells'])
+    #cells = pd.read_csv(cells_file,  header=0, names=['section', 'spot', 'n_cells'])
+    cells = pd.read_csv(cells_file,sep=',')
     cells = cells.loc[cells['section']=='P'+section]
-    return list(cells['spot'])
+    return list(cells['coordinates'])
 
 
 def find_pvals(wes_data):
